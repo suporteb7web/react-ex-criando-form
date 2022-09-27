@@ -14,7 +14,7 @@ const App = () => {
   };
 
   const handleAge = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setAge(e.target.value);
+    setAge(parseInt(e.target.value));
   };
 
   return (
